@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Streamlit App
-st.title("Test Case Generator from Screenshots")
+st.title("AK Test Case Generator")
 
 # Image upload
 uploaded_files = st.file_uploader("Upload Screenshots (Please upload at least one image)", type=['png', 'jpeg', 'jpg'], accept_multiple_files=True)
